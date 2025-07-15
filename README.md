@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎨 Figma Assignment - Pixel Perfect Implementation
 
-## Getting Started
+This project is a pixel-perfect implementation of the given Figma design provided for the internship assignment. The layout, styling, and assets have been strictly followed as per the provided instructions.
 
-First, run the development server:
+## 🚀 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+> [Click here to view the live site](https://your-live-url.vercel.app)  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📋 Assignment Instructions (from Internshala)
 
-## Learn More
+✅ No edit access required — everything was referenced from the public view link.  
+✅ Must replicate the design **exactly** — no personal modifications.  
+✅ Used specified fonts, colors, images, and SVGs.  
+✅ Only accurate submissions will be considered for interviews.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🖼️ Design Source
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 🔗 [Figma Design Link](https://www.figma.com/design/fZv8D5oLfoazZTnWXTr9Cp/Assignment?node-id=0-1&t=MXlqvxPFZQSzgXJa-1)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js 14 / 15** (React Framework)
+- **TypeScript**
+- **Tailwind CSS** for styling
+- **GSAP** for smooth animations
+- **SVGs and Assets** exported from Figma
+- **Responsive design** (matches desktop mockup exactly)
+
+---
+
+## 🎯 Features Implemented
+
+- ✅ Header, Hero Section, Product Cards
+- ✅ FAQ Accordion (with animations)
+- ✅ Footer
+- ✅ Left & Right arrow SVGs as per update
+- ✅ Colors and fonts matched with Figma
+- ✅ GSAP entrance animations (header, main, footer)
+
+---
+
+## 🖍️ Assets Used
+
+- **Font:** `Inter` (via [Google Fonts](https://fonts.google.com/specimen/Inter))  
+- **Colors:** Hex codes used as provided  
+- **Images & SVGs:** Downloaded from Figma inspect panel  
+
+---
+
+## 📁 Project Structure
+figma-assignment-front/
+├── public/
+├── src/
+│ ├── app/
+│ │ ├── components/
+│ │ │ ├── Header.tsx
+│ │ │ ├── Hero.tsx
+│ │ │ ├── Products.tsx
+│ │ │ ├── FAQ.tsx
+│ │ │ ├── Footer.tsx
+│ │ │ └── assets/
+│ ├── globals.css
+│ ├── layout.tsx
+│ └── page.tsx
+├── tailwind.config.js
+├── package.json
+└── README.md
