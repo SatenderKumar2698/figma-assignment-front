@@ -4,7 +4,7 @@ This project is a pixel-perfect implementation of the given Figma design provide
 
 ## 🚀 Live Demo
 
-> [Click here to view the live site](https://your-live-url.vercel.app)  
+> [Click here to view the live site](figma-assignment-skincare.netlify.app)  
 
 
 ---
